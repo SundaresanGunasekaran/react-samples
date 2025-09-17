@@ -264,7 +264,7 @@ class MainContentPreview extends Component {
     });
   }
   setReportsHeight() {
-    if (location.href.includes('/preview') && location.href.includes('/external-parameter-report')) {
+    if (this.isExternalParameter()) {
       var style = document.getElementById('reports-style');
       if (!style) {
         style = document.createElement('style');
@@ -281,6 +281,13 @@ class MainContentPreview extends Component {
         (document.getElementById('previewContainer').getBoundingClientRect().top - document.body.getBoundingClientRect().top)}px`;
       document.getElementById('report-viewer').style.width = `100%`;
     }
+  }
+  isExternalParameter() {
+    const externalParameterSamples = [
+      '/external-parameter-report',
+      '/multi-language-report'
+    ];
+    return externalParameterSamples.some(path => location.href.includes(path)) && location.href.includes('/preview');
   }
   componentDidMount() {
     this.setReportsHeight();

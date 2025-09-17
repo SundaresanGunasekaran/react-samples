@@ -345,7 +345,14 @@ ej-sidebar {
     margin: 20px;
 }
 
-#r-w-property-category, #r-w-property-subcategory, #r-w-property-startdate, #r-w-property-enddate {
+#r-w-property-name-languages {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 39px;
+  margin-top: 8px;
+}
+
+#r-w-property-languages, #r-w-property-category, #r-w-property-subcategory, #r-w-property-startdate, #r-w-property-enddate {
   margin-left: 20px;
 }
 
@@ -389,7 +396,7 @@ ej-sidebar {
   right: 5px;
 }
   
-#category_hidden,#subcategory_hidden{
+#languages_hidden, #category_hidden, #subcategory_hidden{
   font-size: 13px;
 }
 
@@ -407,7 +414,7 @@ ej-sidebar {
   border-bottom: 1px solid #c8c8c8;
 }
 
-#category_hidden, #category_dropdown, #subcategory_hidden, #subcategory_dropdown,#startdate,#enddate {
+#languages_hidden, #languages_dropdown, #category_hidden, #category_dropdown, #subcategory_hidden, #subcategory_dropdown,#startdate,#enddate {
   background-color: #fafafa;
 }
 
