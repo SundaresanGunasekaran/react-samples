@@ -10,6 +10,15 @@ import '@boldreports/javascript-reporting-controls/Scripts/v2.0/common/bold.repo
 import '@boldreports/javascript-reporting-controls/Scripts/v2.0/bold.report-viewer.min';
 import '@boldreports/javascript-reporting-controls/Content/v2.0/tailwind-light/bold.report-designer.min.css';
 import '@boldreports/javascript-reporting-controls/Scripts/v2.0/bold.report-designer.min';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.en-US.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.fr-CA.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.de-DE.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.hi-IN.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.es-ES.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.nl-NL.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.ko-KR.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.he-IL.min.js';
+import '@boldreports/javascript-reporting-controls/Scripts/v2.0/localization/l10n/ej.localetexts.ru-RU.min.js';
 import { MainContentSample, MainContentPreview } from './common/main-content/main-content';
 const samples = data.samples;
 

@@ -34,6 +34,8 @@ import PowerPointReport from './controls/powerpoint-report';
 import TranscriptReport from './controls/transcript-report';
 import CMRReport from './controls/cmr-report';
 import InfographicsReport from './controls/infographics-report';
+import DynamicLogos from './controls/dynamic-logos';
+import MultiLanguageReport from './controls/multi-language-report';
 import rdlcData from './rdlcData'
 
 window.React = React;
@@ -110,7 +112,9 @@ const SampleComponents = {
     PowerPointReport: PowerPointReport,
     TranscriptReport: TranscriptReport,
     CMRReport: CMRReport,
-    InfographicsReport: InfographicsReport
+    InfographicsReport: InfographicsReport,
+    DynamicLogos: DynamicLogos,
+    MultiLanguageReport: MultiLanguageReport
 }
 
 function onReportLoaded(args) {
